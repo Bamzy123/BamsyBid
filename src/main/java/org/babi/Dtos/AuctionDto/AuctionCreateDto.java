@@ -15,7 +15,7 @@ public class AuctionCreateDto {
     @NotBlank
     private String description;
     @NotNull
-    private String startingPrice;
+    private double startingPrice;
     @NotNull
     private LocalDateTime startTime;
     @NotNull
