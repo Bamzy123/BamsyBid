@@ -1,7 +1,11 @@
 package org.babi.Dtos.UserDto;
 
 import jakarta.validation.constraints.NotBlank;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@Data
+@NoArgsConstructor
 public class userLoginDto {
     @NotBlank
     private String username;
